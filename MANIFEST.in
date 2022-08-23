@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sanjeevani *.css
+recursive-include sanjeevani *.csv
+recursive-include sanjeevani *.html
+recursive-include sanjeevani *.ico
+recursive-include sanjeevani *.js
+recursive-include sanjeevani *.json
+recursive-include sanjeevani *.md
+recursive-include sanjeevani *.png
+recursive-include sanjeevani *.py
+recursive-include sanjeevani *.svg
+recursive-include sanjeevani *.txt
+recursive-exclude sanjeevani *.pyc
