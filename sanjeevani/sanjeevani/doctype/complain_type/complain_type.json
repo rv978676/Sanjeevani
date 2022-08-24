@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:complaint_type",
+ "creation": "2022-08-23 22:07:56.433669",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "complaint_type",
+  "default_patient_complain"
+ ],
+ "fields": [
+  {
+   "fieldname": "complaint_type",
+   "fieldtype": "Data",
+   "label": "Complaint Type",
+   "unique": 1
+  },
+  {
+   "fieldname": "default_patient_complain",
+   "fieldtype": "Table",
+   "label": "Default Patient Complain",
+   "options": "Patient Complain"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-25 02:46:27.240339",
+ "modified_by": "Administrator",
+ "module": "Sanjeevani",
+ "name": "Complain Type",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "select": 1,
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Physician",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Healthcare",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

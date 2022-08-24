@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:symptom",
+ "creation": "2022-08-24 21:39:38.895566",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "symptom",
+  "complain",
+  "complain_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "symptom",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Symptom",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "complain",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Complain",
+   "options": "Complaint",
+   "reqd": 1
+  },
+  {
+   "fieldname": "complain_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Complain Type",
+   "options": "Complain Type",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-08-25 02:50:36.987561",
+ "modified_by": "Administrator",
+ "module": "Sanjeevani",
+ "name": "Symptom",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

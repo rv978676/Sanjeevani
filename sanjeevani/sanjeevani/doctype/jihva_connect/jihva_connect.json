@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-08-24 10:04:07.423683",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "jihva"
+ ],
+ "fields": [
+  {
+   "fieldname": "jihva",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "jihva",
+   "options": "Jihva",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-08-25 02:46:42.146982",
+ "modified_by": "Administrator",
+ "module": "Sanjeevani",
+ "name": "jihva Connect",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

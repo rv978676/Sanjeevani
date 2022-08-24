@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:varna",
+ "beta": 1,
+ "creation": "2022-08-24 08:49:53.921594",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "varna"
+ ],
+ "fields": [
+  {
+   "fieldname": "varna",
+   "fieldtype": "Data",
+   "label": "Varna",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-25 02:49:14.665275",
+ "modified_by": "Administrator",
+ "module": "Sanjeevani",
+ "name": "Varna Data",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

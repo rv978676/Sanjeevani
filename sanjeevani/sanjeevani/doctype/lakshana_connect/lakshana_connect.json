@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-08-24 09:17:40.488607",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lakshana"
+ ],
+ "fields": [
+  {
+   "fieldname": "lakshana",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lakshana",
+   "options": "Lakshana",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-08-25 02:47:28.207470",
+ "modified_by": "Administrator",
+ "module": "Sanjeevani",
+ "name": "Lakshana Connect",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
